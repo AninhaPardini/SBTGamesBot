@@ -20,7 +20,7 @@ class MyClient(discord.Client):
         elif message.content == '!bodybuilder':
             await message.channel.send(f'{message.author.name} <@{BODY_BUILDER_ID}> BIRLLLLL HORA DO SHOW!!! :muscle: :sunglasses:')
         elif message.content == '!borabill':
-            await message.channel.send(f'{message.author.id} BORA BILLLLLL 🧨🧨')
+            await message.channel.send(f'BORA BILLLLLL 🧨🧨')
 # Bem-Vindo
     async def on_member_join(self, member):
         guild = member.guild
