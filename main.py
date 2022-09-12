@@ -18,7 +18,7 @@ class MyClient(discord.Client):
         if message.content == '!sbt':
             await message.channel.send(f'{message.author.name} quer jogar aquela nostalgia que são os games online e gratis?\n Vem dar play em nosso site: https://gg.sbtgames.com.br/')
         elif message.content == '!bodybuilder':
-            await message.channel.send(f'{message.author.name} <@{BODY_BUILDER_ID}> BIRLLLLL HORA DO SHOW!!! :muscle: :sunglasses:')
+            await message.channel.send(f'<@{BODY_BUILDER_ID}> BIRLLLLL HORA DO SHOW!!! :muscle: :sunglasses:')
         elif message.content == '!borabill':
             await message.channel.send(f'BORA BILLLLLL 🧨🧨')
 # Bem-Vindo
