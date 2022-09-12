@@ -26,7 +26,7 @@ class MyClient(discord.Client):
         canal = discord.utils.get(guild.channels, id=WELCOME_CHANNEL_ID)
         embed = discord.Embed(
             title='Seja Bem-Vindo(a)!',
-            color=0x0000CD,
+            color=0x0083FF,
             description=f'🎊 | {member.mention} Venha curtir com a galera e conversar com seus Talentos favoritos!\n\n 👮‍♂️ | **Não esquece de ir em:**\n <#996965083328548945> para evitar punições!\n\n 💎 | **Veio pela live?** Então já confere aqui em baixo um pouco sobre nossos <#997314245085642782>!'
         )
 
