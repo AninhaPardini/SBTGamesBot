@@ -28,7 +28,7 @@ class MyClient(discord.Client):
         embed = discord.Embed(
             title='Seja Bem-Vindo(a)!',
             color=0x0083FF,
-            description=f'🎊 | {member.mention} Venha curtir com a galera e conversar com seus Talentos favoritos!\n\n 👮‍♂️ | **Não esquece de ir em:**\n <#996965083328548945> leia para poder ter acesso a todo nosso servidor!\n\n 💎 | **Veio pela live?** Então já confere aqui em baixo um pouco sobre nossos <#997314245085642782>!'
+            description=f'🎊 | {member.mention} Venha curtir com a galera e conversar com seus Talentos favoritos!\n\n 👮‍♂️ | **Não esquece de ir em:**\n <#996965083328548945> leia para poder ter acesso a todo nosso servidor!\n\n 💎 | **Veio pela live?** Então já confere aqui em baixo um pouco sobre nossos <#1009871590072266813>!'
         )
 
         embed.set_author(name=member.name, icon_url=member.display_avatar)
